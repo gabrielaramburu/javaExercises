@@ -7,6 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 
 import com.mycompany.common.CommonUtility;
+import com.mycompany.util.SomeInterestingClass;
 
 public class DesktopApp extends JFrame {
 	static String appName = CommonUtility.getAppName();
@@ -28,6 +29,8 @@ public class DesktopApp extends JFrame {
 		SwingUtilities.invokeLater(new Runnable() {
 			
 			public void run() {
+				SomeInterestingClass helper = new SomeInterestingClass();
+				helper.doSomethingUseful();
 				new DesktopApp().setVisible(true);
 			}
 		});
