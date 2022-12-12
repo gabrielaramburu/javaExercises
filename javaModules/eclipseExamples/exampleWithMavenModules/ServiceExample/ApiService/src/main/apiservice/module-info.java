@@ -1,0 +1,3 @@
+module apiService {
+	exports apiservice;
+}
