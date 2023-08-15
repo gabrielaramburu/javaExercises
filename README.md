@@ -1,2 +1,3 @@
 # javaExercises
-Esto es otra prueba.
+
+Esto es una prueba.
